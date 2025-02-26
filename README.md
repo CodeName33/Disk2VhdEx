@@ -12,11 +12,17 @@ My tool handles disk2vhd window and set all optiona that can be set in GUI mode.
 # Usage
 
 Usage disk2vhdex.exe arg1=value arg2=value ...
+
 Arguments:
+
   output=FILENAME - output file
+  
   vhdx=(1/0) - use VhdX format
+  
   shadowcopy=(1/0) - enable shadow volume copy
+  
   virtualpc=(1/0) - virtual pc mode
+  
   volume=VOLUME_NAME include volume with this name (can use * wildcard, case ignored). This option can be declared many times. volume=c:\ volume=d:\ ...
   label=VOLUME_LABEL - include volume with this labels (can use * wildcard, case ignored). This option can be declared many times. label=MY_DRIVE1 label=MY_DRIVE2 ...
   volumelabel=VOLUME_NAME=VOLUME_LABEL- include volume with this name and label (can use * wildcard, case ignored). This option can be declared many times. volumelabel=*volume*|[no label]
